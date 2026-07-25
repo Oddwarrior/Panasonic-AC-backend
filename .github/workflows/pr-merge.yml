@@ -34,7 +34,7 @@ jobs:
           if [[ "${{ github.event.pull_request.head.ref }}" == release-please--* ]]; then
             VERSION=$(node -p "require('./package.json').version")
             echo "Release Please PR detected. Found version: $VERSION"
-            TAGS="$TAGS,oddwarrior/panasonic-ac-backend:v$VERSION,oddwarrior/panasonic-ac-backend:latest"
+            TAGS="$TAGS,oddwarrior/panasonic-ac-backend:$VERSION,oddwarrior/panasonic-ac-backend:latest"
           fi
           
           echo "tags=$TAGS" >> $GITHUB_OUTPUT
