@@ -82,5 +82,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `✅ **Build Verified!**\n\nThe build for commit \`${shortSha}\` has been successfully built and verified.`
+              body: `✅ **Build Verified!**\n\nThe build has been successfully built and verified.`
             })
