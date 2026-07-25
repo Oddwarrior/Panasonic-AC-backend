@@ -51,7 +51,7 @@ jobs:
           images: ghcr.io/oddwarrior/panasonic-ac-backend
           tags: |
             type=raw,value=${{ steps.vars.outputs.short_sha }}
-            type=ref,event=pr
+            type=raw,value=pr-${{ github.event.pull_request.number }}
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v7
