@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Oddwarrior/Panasonic-AC-backend/compare/v1.0.0...v1.1.0) (2026-07-25)
+
+
+### Features
+
+* add automated PR comment on successful build verification ([0281636](https://github.com/Oddwarrior/Panasonic-AC-backend/commit/028163676d91aee9e6b14361002ed909d13f9aa7))
+
 ## 1.0.0 (2026-07-25)
 
 
